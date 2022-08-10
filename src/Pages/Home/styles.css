@@ -1,0 +1,11 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.TitleProd{
+    text-align: center;
+    font-size: 50px;
+}

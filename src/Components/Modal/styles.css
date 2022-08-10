@@ -1,0 +1,83 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    border-radius: 16px;
+    height: 500px;
+    width: 60%;
+    margin-left: 260px;
+    justify-content: center;
+    margin-top: -790px;
+    align-content: center;
+    background-color: white;
+    
+}
+.modalcontent{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: baseline;
+   
+}
+.headermd{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.imgModal{
+    width:350px;
+    height: 450px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    border-radius: 16px;
+}
+.labelpr{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.priceValue{
+    font-size: 30px;
+    font-weight: bold;
+    color: greenyellow;
+
+
+}
+.spandata{
+    margin-top: 90px;
+    margin-left: -130px;
+    font-size: 15px;
+}
+.actionsmodal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+    margin-left: 270px;
+    gap:50px;
+}
+.btnVoltar{
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+    background-color: #00FFFF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 16px;
+}
+.onadd{
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+    background-color: #32CD32;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 16px;  
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

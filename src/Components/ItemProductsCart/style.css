@@ -1,0 +1,33 @@
+.ProductList{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.ProductName{
+    font-size: 30px;
+    font-weight: bold;
+}
+.productImg{
+    width: 500px;
+}
+.contentProduct{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 20px;
+}
+.btnProdutosI{
+    width:50px;
+    height: 50px;
+    background-color:#32CD32;
+    color:white;
+    border:none;
+}
+.Lixob{
+    width:50px;
+    height: 50px;
+    background-color:red;
+    color:white;
+    border:none;
+}

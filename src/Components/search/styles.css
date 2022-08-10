@@ -1,0 +1,16 @@
+.searchInput{
+    width: 300px;
+    height: 35px;
+    border-radius: 16px;
+    text-align: center;
+    margin-left: 60px !important;
+    z-index: -1;
+   
+}
+.iconsearch{
+    margin-left: 70px;
+    margin-top: 20px;
+    z-index: 1;
+    position: absolute;
+   
+}

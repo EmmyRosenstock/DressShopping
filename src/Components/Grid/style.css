@@ -1,0 +1,16 @@
+.Grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+    
+
+ 
+}
+.GridRow{
+    display: grid;
+    gap: 20px;
+}
