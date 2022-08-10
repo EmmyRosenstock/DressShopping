@@ -25,11 +25,11 @@ const Search = ({products, operation, field}: SearchProps) => {
         setPriceFiltrada(foundPrice)
         console.log(foundPrice)
       }
-      function searchData(text:string) {
-        const foundData:Product[] = products.filter(e => e.data as any >= text)
-         setDataFiltrada(foundData)
-         console.log(foundData)
-       }
+      function searchData(text: string) {
+        text = text.split('-').reverse().join('-')
+        const foundDates:Product[] = products.filter(e => e.data.toString() == text)
+        console.log(foundDates)
+    }
       
     return (
         <div className='search'>
